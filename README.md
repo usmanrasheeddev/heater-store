@@ -1,4 +1,4 @@
-# Portable heater storefront
+# RB Heaters storefront
 
 Source for a mobile-first single-page COD shop. Built with React/Vinext and a Cloudflare D1 order database.
 
@@ -20,7 +20,7 @@ The separate black tabletop photograph is intentionally not associated with eith
 Node 22.13+ required. Install with `npm run install:ci`, start with `npm run dev`, build with `npm run build`. On Windows, if the npm shell wrapper fails, use the installed npm JavaScript entrypoint with Node. Generate migrations with `npm run db:generate`.
 
 ## Before advertising
-The first Sites deployment is owner-private. Public audience access must be enabled before sending ad traffic. Verify the production order path with a clearly labeled test order. Confirm estimated delivery time, return eligibility, return shipping charges and refund timing; the page currently asks customers to contact the seller for these details. Confirm the business/store name if a brand beyond the generic “room / heaters” label is desired.
+The first Sites deployment is owner-private. Public audience access must be enabled before sending ad traffic. Verify the production order path with a clearly labeled test order. Confirm estimated delivery time, return eligibility, return shipping charges and refund timing; the page currently asks customers to contact the seller for these details. Store name: RB Heaters. The supplied RB logo is used in the header, footer and browser icon.
 
 ## Images and performance
 Supplied images have 480px and 960px WebP variants. The hero is prioritized; other images load lazily. Fonts are local system fonts. No ad pixels, trackers, external font files, animation packages or UI library imports are used by the page.

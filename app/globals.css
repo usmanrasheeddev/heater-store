@@ -8,3 +8,5 @@
 
 .hero-image>img{padding:0;object-fit:cover;mix-blend-mode:normal}
 
+
+.wordmark{white-space:nowrap;letter-spacing:-.8px}.wordmark .brand-logo{width:48px;height:48px;object-fit:contain;border-radius:50%;flex-shrink:0}.header .wordmark{gap:12px}@media(max-width:760px){.wordmark{font-size:22px}.wordmark .brand-logo{width:40px;height:40px}.header .wordmark{gap:8px}}
